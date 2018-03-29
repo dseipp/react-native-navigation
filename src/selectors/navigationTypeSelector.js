@@ -1,1 +1,1 @@
-export default state => state.navigation.navigationType;
+export default state => state.getIn(['navigation', 'navigationType']);
